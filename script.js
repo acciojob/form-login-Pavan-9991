@@ -1,8 +1,12 @@
 function getFormvalue() {
     //Write your code here
-	var FirstName = document.elementbyId(fname);
-	var LastName = document.elementbyId(lname);
+	 event.preventDefault();
 
-	alert(FirstName +" " + LastName)
+    // Get the values of the input elements
+    var firstName = document.getElementById('fname').value;
+    var lastName = document.getElementById('lname').value;
+
+    // Display the first and last name in an alert
+    alert(firstName + " " + lastName);
 
 }
