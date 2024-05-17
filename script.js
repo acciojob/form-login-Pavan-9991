@@ -3,6 +3,6 @@ function getFormvalue() {
 	var FirstName = document.elementbyId(fname);
 	var LastName = document.elementbyId(lname);
 
-	alert(FirstName + LastName)
+	alert(FirstName +" " + LastName)
 
 }
